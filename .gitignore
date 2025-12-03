@@ -1,5 +1,7 @@
 .vs/
 .mysshkey
-.mysshkey.pub
-.myssh.pub.
-.myssh
+.# Ignore typical SSH files
+id_*
+*.pem
+*.key
+*.pub
